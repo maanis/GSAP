@@ -18,3 +18,9 @@ tl.to('#box3', {
     borderRadius: '50%',
     duration: 1,
 })
+tl.to('#box4', {
+    y: 400,
+    backgroundColor: "crimson",
+    transform: "translateX(-50%,-50%)",
+    duration: 1,
+})
