@@ -7,15 +7,18 @@
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body class="bg-[#212121]">
 
 
-    <div class=" container w-full">
-        <svg width="500"  height="200" xmlns="http://www.w3.org/2000/svg">
-            <path d="M 10 100 Q 250 100 490 100" stroke="white" fill="transparent"/>
-          </svg>
+    <div class="cursor h-[20px] flex justify-center items-center w-[20px] z-10 bg-white fixed rounded-[50%]"></div>
+    <div class="main h-full w-full flex justify-center items-center  bg-zinc-900">
+        
+        <div class="img-cont h-[320px] rounded-md w-[520px] relative">
+            <div class="overlay h-full w-full absolute top-0 left-0 bg-transparent z-20"></div>
+        </div>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
